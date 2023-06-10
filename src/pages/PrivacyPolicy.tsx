@@ -13,7 +13,6 @@ const PrivacyPolicy: FC = () => (
     <p className="mb-4">
       Information we collect includes both information you knowingly and actively provide us when using or participating in any of our services and promotions, and any information automatically sent by your devices in the course of accessing our products and services.
     </p>
-    // Add more sections here...
   </div>
 );
 
