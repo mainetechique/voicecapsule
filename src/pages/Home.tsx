@@ -13,9 +13,18 @@ const Home = () => (
           <br />
           Start your journey of self-discovery today. Available now on the App Store!
         </p>
-        <a href="https://apps.apple.com/us/app/voicecapsule" target="_blank" rel="noopener noreferrer">
-          <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold my-8 py-2 px-4 rounded">Download Now</button>
-        </a>
+        <div className="space-y-4">
+          <a href="https://apps.apple.com/us/app/voicecapsule" target="_blank" rel="noopener noreferrer">
+            <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded w-full">
+              Download Now
+            </button>
+          </a>
+          <a href="mailto:support@voicecapsule.com" className="block">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full">
+              Contact Us for Support
+            </button>
+          </a>
+        </div>
       </div>
     </div>
     <footer className="absolute bottom-0 z-20 w-full h-20 bg-black bg-opacity-50 flex items-center justify-center">
