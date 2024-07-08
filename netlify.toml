@@ -1,9 +1,8 @@
 [build]
   publish = "build"
   command = "yarn build"
-  
+
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
-force = true  # Ensure that the rule takes precedence over other possible rules
+  from = "/*"
+  to = "/index.html"
+  status = 200
